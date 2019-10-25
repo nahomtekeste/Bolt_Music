@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <WebView
+            android:layout_width="match_parent"
+            android:layout_height="570dp" android:id="@+id/webview" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="96dp"/>
+
+    <EditText
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/url_address"
+            android:hint="Search or enter website name "
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="114dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="676dp"
+            app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
+            app:layout_constraintHorizontal_bias="0.0" android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+    <Button
+            android:text="Cancel"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cancel"
+
+            android:layout_marginStart="301dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="12dp"
+            app:layout_constraintHorizontal_bias="0.982" android:layout_marginBottom="678dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="14sp"
+            android:layout_alignParentEnd="true" android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" android:layout_marginTop="5dp" android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
